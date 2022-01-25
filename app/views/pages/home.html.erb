@@ -1,4 +1,13 @@
-<h1>Welcome to Home page</h1>
-
-<%= link_to 'Articles listing', articles_path %> |
-<%= link_to 'About page', about_path %>
+<div class="container" id="home-container">
+  <div class="p-5 rounded-lg m-3 text-center" id="jumbotron">
+    <h1 class="display-4">Welcome to Home page</h1>
+    <p class="lead">This is a simple Ruby on Rails app that demonstrates CRUD operations with the example of Articles.</p>
+    <hr class="my-4">
+    <a class="btn btn-info btn-lg btn-outline-light" href="/articles" role="button">Go to Articles</a>
+  </div>
+</div>
+<footer class="footer mt-auto py-3 bg-dark">
+  <div class="container">
+    <span class="text-muted">Created with ❤️ by <a class="badge" href="https://github.com/">nat-v</a></span>
+  </div>
+</footer>
