@@ -11,7 +11,7 @@
   color: rgb(26, 26, 26);
 }
 
-#jumbotron h1, p {
+#jumbotron > p, #jumbotron > h1 {
   font-weight: bold !important;
 }
 
