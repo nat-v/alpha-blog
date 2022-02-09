@@ -1,0 +1,7 @@
+<div class="text-center mt-4 display-4"><%= @user.username %>'s profile</div>
+
+<%= gravatar_for @user, size: 200 %>
+
+<div class="text-center mt-4 display-5">Articles</div>
+
+<%= render 'articles/article' %>
