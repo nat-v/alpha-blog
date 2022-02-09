@@ -2,7 +2,8 @@
   <div class="p-5 rounded-lg m-3 text-center" id="jumbotron">
     <h1 class="display-4">Welcome to Home page</h1>
     <p class="lead">This is a simple Ruby on Rails app that demonstrates CRUD operations with the example of Articles.</p>
-    <hr class="my-4">
-    <a class="btn btn-info btn-lg btn-outline-light" href="/articles" role="button">Go to Articles</a>
+    <hr class="my-4">    
+    <%= link_to "Go to Articles", articles_path, class: "btn btn-info btn-lg btn-outline-dark" %>
+    <%= link_to "Sign Up", signup_path, class: "btn btn-info btn-lg btn-outline-dark" %>
   </div>
 </div>
